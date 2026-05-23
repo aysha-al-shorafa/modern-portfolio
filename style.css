@@ -3,20 +3,26 @@ body {
   font-family: Arial, sans-serif;
   color: #333;
 }
+
 nav {
   background: #b48ead;
   color: white;
-  padding: 5px 50px;
+  padding: 3px 60px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
   display: flex;
-  gap: 25px;
+  gap: 30px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -25,11 +31,19 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  background: white;
+  border-radius: 10px;
+  color: #b48ead;
+  padding: 10px;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 70px;
+  padding: 80px 70px;
+  gap: 40px;
 }
 
 .hero-text {
@@ -52,7 +66,8 @@ nav a {
 }
 
 .hero-image img {
-  width: 450px;
+  width: 380px;
+  border-radius: 20px;
 }
 
 .skills {
@@ -73,12 +88,16 @@ nav a {
 .skill-card {
   background: white;
   padding: 15px 25px;
-  border-radius: 10px;
-
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   font-weight: bold;
+  transition: 0.3s;
 }
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
 .projects {
   padding: 50px 70px;
 }
@@ -126,10 +145,8 @@ nav a {
 footer {
   background: #b48ead;
   color: white;
-
   text-align: center;
-
-  padding: 15px;
-
-  margin-top: 40px;
+  padding: 5px;
+  margin-top: 60px;
+  font-weight: bold;
 }
