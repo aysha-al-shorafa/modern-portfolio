@@ -81,12 +81,16 @@ nav a {
 .skill-card {
   background: white;
   padding: 15px 25px;
-  border-radius: 10px;
-
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
   font-weight: bold;
+  transition: 0.3s;
 }
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
 .projects {
   padding: 50px 70px;
 }
