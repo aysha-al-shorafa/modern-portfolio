@@ -31,13 +31,6 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover {
-  background: white;
-  border-radius: 10px;
-  color: #b48ead;
-  padding: 10px;
-}
-
 .hero {
   display: flex;
   justify-content: space-between;
@@ -149,4 +142,99 @@ footer {
   padding: 5px;
   margin-top: 60px;
   font-weight: bold;
+}
+@media (max-width: 992px) {
+  nav {
+    padding: 15px 30px;
+  }
+
+  .hero,
+  .skills,
+  .projects {
+    padding: 50px 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 15px;
+  }
+
+  nav ul {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    font-size: 14px;
+    padding: 5px 8px;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text h3 {
+    font-size: 24px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .skills,
+  .projects {
+    padding: 40px 20px;
+  }
+
+  .skills-container,
+  .projects-container {
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 24px;
+  }
+
+  .hero-text h3 {
+    font-size: 20px;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .skill-card {
+    width: 100%;
+    text-align: center;
+  }
 }
