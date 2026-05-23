@@ -31,6 +31,13 @@ nav a {
   font-weight: bold;
 }
 
+nav a:hover {
+  background: white;
+  border-radius: 10px;
+  color: #b48ead;
+  padding: 10px;
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
