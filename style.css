@@ -35,7 +35,8 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 70px;
+  padding: 80px 70px;
+  gap: 40px;
 }
 
 .hero-text {
@@ -58,7 +59,8 @@ nav a {
 }
 
 .hero-image img {
-  width: 450px;
+  width: 380px;
+  border-radius: 20px;
 }
 
 .skills {
