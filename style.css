@@ -3,20 +3,26 @@ body {
   font-family: Arial, sans-serif;
   color: #333;
 }
+
 nav {
   background: #b48ead;
   color: white;
-  padding: 5px 50px;
+  padding: 3px 60px;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  position: sticky;
+  top: 0;
 }
 
 nav ul {
   display: flex;
-  gap: 25px;
+  gap: 30px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
