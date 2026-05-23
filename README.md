@@ -31,7 +31,7 @@ A modern personal portfolio website built using HTML and CSS.
 
 ### Skills and Projects
 
-![Skills](./imgs/Skills%20&%20project%20sections.png)
+![Skills](./imgs/skills-projects.png)
 
 ### Footer
 
